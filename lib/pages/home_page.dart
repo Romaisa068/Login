@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("Milk Dairy System"),
+          backgroundColor: Color.fromARGB(255, 87, 90, 92),
         ),
         body: Center(
           child: Container(
