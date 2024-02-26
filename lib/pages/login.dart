@@ -6,9 +6,11 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: Center(
-        child: Text("Login"),
-        ),
+      child: Column(
+        children: [
+          Image.asset("assets/images/login_image.png")
+        ],
+        )
     );
   }
 }
